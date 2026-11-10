@@ -1,0 +1,11 @@
+name: anchor
+version: "0.1.0"
+requires_hermes: ">=0.23.0"
+description: "Context engine that pins decisions, amounts and dates verbatim before compressing — deterministic, zero model calls."
+provides_tools:
+  - anchor_pin
+  - anchor_unpin
+  - anchor_pins
+  - anchor_status
+provides_hooks: []
+requires_env: []

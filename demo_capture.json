@@ -1,0 +1,47 @@
+{
+ "pins_after_seed": [
+  "Decision: we launch on 20 Nov 2026.",
+  "Noted \u2014 building the plan around 20 Nov 2026.",
+  "The budget is $4,200 for the venue, not a cent more.",
+  "Got it, $4,200 is the ceiling.",
+  "Final: the venue is Marina Hall."
+ ],
+ "passes": [
+  {
+   "n": 1,
+   "before_chars": 8719,
+   "after_chars": 4867,
+   "messages": 12
+  },
+  {
+   "n": 2,
+   "before_chars": 4867,
+   "after_chars": 4867,
+   "messages": 12
+  },
+  {
+   "n": 3,
+   "before_chars": 4867,
+   "after_chars": 4867,
+   "messages": 12
+  }
+ ],
+ "facts_verbatim": {
+  "Decision: we launch on 20 Nov 2026.": true,
+  "The budget is $4,200 for the venue, not a cent more.": true,
+  "Final: the venue is Marina Hall.": true
+ },
+ "status": {
+  "name": "anchor",
+  "last_prompt_tokens": 0,
+  "last_completion_tokens": 0,
+  "last_total_tokens": 0,
+  "threshold_tokens": 150000,
+  "context_length": 200000,
+  "compression_count": 1,
+  "pins_active": 5,
+  "tokens_saved_total_est": 959,
+  "model_calls_made": 0
+ },
+ "carrier": "[Anchor \u2014 pinned facts, kept verbatim]\nThese facts were pinned (by the user, the agent, or Anchor's detector) and are preserved exactly as written. Treat them as current, agreed facts:\n- [decision] Decision: we launch on 20 Nov 2026.\n- [date] Noted \u2014 building the plan around 20 Nov 2026.\n- [money] The budget is $4,200 for the venue, not a cent more.\n- [money] Got it, $4,200 is the ceiling.\n- [decision] Final: the venue is Marina Hall."
+}
